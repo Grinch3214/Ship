@@ -197,3 +197,27 @@ body{
 		background: #142129;
 	}
 }
+
+.sun_moon {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+	width: 80px;
+	height: 80px;
+	background: yellow;
+	border-radius: 50%;
+	animation: sun 8s infinite;
+}
+
+@keyframes sun {
+	from{
+		opacity: 1;
+		box-shadow: 0px 0px 5px #fff;
+	}
+
+	to {
+		opacity: 0;
+		top: 435px;
+		left: 435px;
+	}
+}
